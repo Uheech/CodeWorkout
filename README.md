@@ -4,9 +4,6 @@
 ---
 
 ## 🛠️ 기술 스택 (Tech Stack)
-
-이 저장소의 코딩 연습에는 다음과 같은 기술들이 주로 사용되었습니다.
-
 * **SQL**: 데이터베이스 질의 및 관리
 * **Python**:
     * **Pandas**: 데이터 조작 및 분석
@@ -15,6 +12,6 @@
 
 
 ## 🧐 학습 회고 및 오답노트 (Learning Reflection & Error Log)
-[🚀 SQL 오답노트 (Notion) 바로가기](https://www.notion.so/Python-210f12c0147d809da8c1f9fce13cfdce?pvs=94)
+[🚀 SQL (Notion) 바로가기](https://www.notion.so/Python-210f12c0147d809da8c1f9fce13cfdce?pvs=94)
 
-[🚀 Python 오답노트 (Notion) 바로가기](https://www.notion.so/Python-210f12c0147d809da8c1f9fce13cfdce?pvs=94)
+[🚀 Python (Notion) 바로가기](https://www.notion.so/Python-210f12c0147d809da8c1f9fce13cfdce?pvs=94)
