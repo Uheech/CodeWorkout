@@ -16,4 +16,5 @@
 
 ## 🧐 학습 회고 및 오답노트 (Learning Reflection & Error Log)
 [🚀 SQL 오답노트 (Notion) 바로가기](**https://www.notion.so/SQL-1ecf12c0147d80908ce6c9d4ff19c288?source=copy_link**)
+
 [🚀 Python 오답노트 (Notion) 바로가기](**https://www.notion.so/1ecf12c0147d80c0b197f62eb27de794?source=copy_link**)
