@@ -1,0 +1,7 @@
+# Lv.1: 자동차 대여 기록에서 장기/단기 대여 구분하기
+# 처음에 틀렸었던 이유: 그냥 종료일에서 시작일을 빼고 +1을 했다.
+# 날짜의 차는 DATEDIFF(큰거, 작은거) 임을 명심하자 
+SELECT HISTORY_ID, CAR_ID, DATE_FORMAT(START_DATE,'%Y-%m-%d') as START_DATE, DATE_FORMAT(END_DATE, '%Y-%m-%d') as END_DATE, CASE WHEN DATEDIFF(END_DATE, START_DATE) >= 29 THEN '장기 대여'
+ELSE '단기 대여' END as RENT_TYPE FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+WHERE START_DATE LIKE '2022-09%'
+ORDER BY HISTORY_ID DESC;
