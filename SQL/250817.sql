@@ -1,0 +1,12 @@
+# Lv.4 특정 조건을 만족하는 물고기별 수와 최대 길이 구하기
+SELECT COUNT(*) as FISH_COUNT, MAX(LENGTH) as MAX_LENGTH, FISH_TYPE FROM
+# null인 경우, 모두 10으로 변경
+(SELECT FISH_TYPE, 
+ CASE WHEN LENGTH IS NULL THEN 10
+ ELSE LENGTH END
+as LENGTH FROM FISH_INFO) as F1
+# 물고기 종류별로 묶어주기
+GROUP BY FISH_TYPE 
+# 그리고 그 그룹의 평균 길이가 33cm 이상일때만 
+HAVING AVG(LENGTH)>=33
+ORDER BY FISH_TYPE ASC;
